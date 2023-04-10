@@ -1,0 +1,90 @@
+body {
+    background-color: #967b55;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    color: #212410;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.btn_colour {
+    background-color: #465736;
+    color: white;
+}
+
+.btn_colour:hover {
+    background-color: #1e2419;
+    color: white;
+
+}
+
+.headerlogo {
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.headerlink {
+    font-weight: 600;
+    font-size: 1.2rem;
+
+
+}
+
+.lead {
+    margin-top: 60px;
+    color: white;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+
+
+#mainNavbar .nav-link {
+    color: azure;
+    font-size: 22px;
+
+}
+
+#mainNavbar .navbar-brand {
+    margin-left: 20px;
+    font-size: 1.6rem;
+    color: #393f04;
+    font-weight: bold;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #283519;
+}
+
+#mainNavbar .navbar-brand {
+    color: #283519;
+    font-weight: bold;
+}
+
+#heading-group span {
+    color: #283519;
+}
+
+#heading-group h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background-color: #889474;
+    transition: background 200ms;
+}
+
+@media (max-width: 1200px) {
+    #heading-group h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
